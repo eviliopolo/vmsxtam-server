@@ -150,29 +150,6 @@
     				</div>
                     <!-- Card END -->
                     <div class="my-5"></div>
-                    <div class="form-group mb-0 text-center">
-                        <% config.socialLinks.forEach((item) => { %>
-                            <a class="mr-2 social-link btn btn-primary <%- item.color || 'bg-none text-white' %>" target="_blank" href="<%- item.href %>">
-                                <div class="d-flex flex-row full-height">
-                                    <div class="vertical-center full-height" style="flex: 1">
-                                        <i class="fa fa-<%- item.icon %>"></i>
-                                    </div>
-                                </div>
-                            </a>
-                        <% }) %>
-                    </div>
-                    <!-- Powered By Shinobi -->
-                    <div class="mt-4"></div>
-                    <div class="text-center text-white monospace mt-2">
-                        <small>
-                            <% if(config.showPoweredByShinobi){ %>
-                                <p><%- config.poweredByShinobi %></p>
-                            <% }else{ %>
-                                <!-- <%- config.poweredByShinobi %> -->
-                            <% } %>
-                        </small>
-                    </div>
-                    <!-- Powered By Shinobi END -->
 				</div>
 			</div>
 		</div>

@@ -2,7 +2,7 @@ module.exports = function(s,config,lang,app,io){
     const processCwd = process.cwd();
     const { setDefaultIfUndefined } = require('./basic/utils.js')(processCwd,config);
     setDefaultIfUndefined(config, 'showPoweredByShinobi', true);
-    setDefaultIfUndefined(config, 'poweredByShinobi', 'Powered by Shinobi.Systems');
+    setDefaultIfUndefined(config, 'poweredByShinobi', 'Powered by XTAM VIDEO');
     setDefaultIfUndefined(config, 'showLoginCardHeader', true);
     setDefaultIfUndefined(config, 'webFavicon', 'libs/img/icon/favicon.ico');
     setDefaultIfUndefined(config, 'logoLocationAppleTouchIcon', 'libs/img/icon/apple-touch-icon.png');

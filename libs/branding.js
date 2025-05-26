@@ -14,7 +14,7 @@ module.exports = function(s,config,lang,app,io){
     setDefaultIfUndefined(config, 'logoLocation144x144', 'libs/img/icon/apple-touch-icon-144x144.png');
     setDefaultIfUndefined(config, 'logoLocation152x152', 'libs/img/icon/apple-touch-icon-152x152.png');
     setDefaultIfUndefined(config, 'logoLocation196x196', 'libs/img/icon/favicon-196x196.png');
-    setDefaultIfUndefined(config, 'logoLocation76x76Link', 'https://shinobi.video');
+    setDefaultIfUndefined(config, 'logoLocation76x76Link', 'https://xtam.com.co');
     setDefaultIfUndefined(config, 'logoLocation76x76Style', 'border-radius:50%');
     setDefaultIfUndefined(config, 'loginScreenBackground', 'assets/img/splash.avif');
     setDefaultIfUndefined(config, 'showLoginSelector', true);

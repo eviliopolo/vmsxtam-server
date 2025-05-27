@@ -296,7 +296,7 @@ module.exports = function(s,config,lang,app,io){
                     if(user){
                         callback(null, {user: user.ke})
                     }else{
-                        callback(new Error(lang.failedLoginText2))
+                        callback(new Error('Mensaje personal' + lang.failedLoginText2))
                     }
                 })
             },

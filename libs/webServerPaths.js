@@ -263,7 +263,7 @@ module.exports = function(s,config,lang,app,io){
             if(!failIdentifier){
                 s.renderPage(req,res,config.renderPaths.index,{
                     failedLogin: true,
-                    message: failMessage || lang.failedLoginText2,
+                    message: failMessage || 'Mensaje temporal' + lang.failedLoginText2,
                     lang: s.copySystemDefaultLanguage(),
                     config: s.getConfigWithBranding(req.hostname),
                     screen: screenChooser(req.params.screen)
@@ -292,7 +292,7 @@ module.exports = function(s,config,lang,app,io){
             }else{
                 s.renderPage(req,res,config.renderPaths.index,{
                     failedLogin: true,
-                    message: failMessage || lang.failedLoginText2,
+                    message: failMessage || 'Mensaje temporal'+ lang.failedLoginText2,
                     lang: s.copySystemDefaultLanguage(),
                     config: s.getConfigWithBranding(req.hostname),
                     screen: screenChooser(req.params.screen)

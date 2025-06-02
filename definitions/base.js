@@ -7946,21 +7946,21 @@ module.exports = function(s,config,lang){
                           label: `${lang['FFprobe']}`,
                           pageOpen: 'cameraProbe',
                       },
-                      {
-                          icon: 'compass',
-                          label: `${lang['ShinobiHub']}`,
-                          pageOpen: 'configFinder',
-                          addUl: true,
-                          eval: `!$user.details.sub || $user.details.monitor_create !== 0`,
-                      },
+                      //{
+                      //    icon: 'compass',
+                      //    label: `${lang['ShinobiHub']}`,
+                      //    pageOpen: 'configFinder',
+                      //    addUl: true,
+                      //    eval: `!$user.details.sub || $user.details.monitor_create !== 0`,
+                      //},
                       {
                           divider: true,
                       },
-                      {
-                          icon: 'info-circle',
-                          label: `${lang['Help']}`,
-                          pageOpen: 'helpWindow',
-                      },
+                      //{
+                      //    icon: 'info-circle',
+                      //    label: `${lang['Help']}`,
+                      //    pageOpen: 'helpWindow',
+                      //},
                       // {
                       //     icon: 'exclamation-circle',
                       //     label: `${lang['Events']}`,

@@ -113,7 +113,7 @@ $(document).ready(function(){
             monitorTargetSpecific.hide()
         }
     })
-    initHelpNotice()
+    //initHelpNotice()
     addOnTabOpen('helpWindow', function () {
         loadHelpingHandSelectors()
     })

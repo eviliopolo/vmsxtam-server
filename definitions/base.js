@@ -1087,7 +1087,7 @@ module.exports = function(s,config,lang){
                         ]
                    },
                    {
-                       isAdvanced: true,
+                      isAdvanced: true,
                       "name": "detail=signal_check",
                       "field": lang["Check Signal Interval"],
                       "description": lang["fieldTextSignalCheck"],
